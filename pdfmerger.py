@@ -6,7 +6,7 @@ pdfs = []
 
 n = int(input("How many pdfs do you want to merge : "))
 
-for x in range(0, n):
+for x in range(n):
     name = input(f"Enter the name of pdf {x+1} : ")
     pdfs.append(name)
 
