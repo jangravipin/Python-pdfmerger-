@@ -4,10 +4,10 @@ merger = PdfWriter()
 
 pdfs = []
 
-n = int(input("How many pdfs do you want to merge\n"))
+n = int(input("How many pdfs do you want to merge : "))
 
-for i in range(0, n):
-    name = input(f"Enter the name of pdf {i+1} : ")
+for x in range(0, n):
+    name = input(f"Enter the name of pdf {x+1} : ")
     pdfs.append(name)
 
 for pdf in pdfs:
